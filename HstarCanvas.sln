@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HstarCanvas.Persistence.Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HstarCanvas.Bridge.Tests", "tests\HstarCanvas.Bridge.Tests\HstarCanvas.Bridge.Tests.csproj", "{AE863F70-517E-4463-98F4-475A13ECF74E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HstarCanvas.Native.Tests", "tests\HstarCanvas.Native.Tests\HstarCanvas.Native.Tests.csproj", "{7560B000-BD23-4F6A-BF67-077E255597E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +72,10 @@ Global
 		{AE863F70-517E-4463-98F4-475A13ECF74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE863F70-517E-4463-98F4-475A13ECF74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE863F70-517E-4463-98F4-475A13ECF74E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7560B000-BD23-4F6A-BF67-077E255597E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7560B000-BD23-4F6A-BF67-077E255597E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7560B000-BD23-4F6A-BF67-077E255597E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7560B000-BD23-4F6A-BF67-077E255597E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4907A84B-9D1D-4B1A-B42A-3D37B281F40B} = {94DACA31-33B8-458D-804D-DA4578255651}
@@ -81,5 +87,6 @@ Global
 		{53F4EB28-A17B-4F36-AE25-1AAF33A7B9E5} = {3D5C91F5-B129-4A43-9032-E9050133DC0F}
 		{C87C6B62-03EE-4C19-8E48-77E183C9B933} = {3D5C91F5-B129-4A43-9032-E9050133DC0F}
 		{AE863F70-517E-4463-98F4-475A13ECF74E} = {3D5C91F5-B129-4A43-9032-E9050133DC0F}
+		{7560B000-BD23-4F6A-BF67-077E255597E9} = {3D5C91F5-B129-4A43-9032-E9050133DC0F}
 	EndGlobalSection
 EndGlobal
