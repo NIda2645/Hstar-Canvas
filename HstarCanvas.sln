@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{94DACA31-33B8-458D-804D-DA4578255651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HstarCanvas.Core", "src\HstarCanvas.Core\HstarCanvas.Core.csproj", "{4907A84B-9D1D-4B1A-B42A-3D37B281F40B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HstarCanvas.Execution", "src\HstarCanvas.Execution\HstarCanvas.Execution.csproj", "{B0E40126-CF85-4B97-A41D-900253E9A47E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HstarCanvas.Persistence", "src\HstarCanvas.Persistence\HstarCanvas.Persistence.csproj", "{D7C01671-44FF-4FE0-9B02-8F19B7C0977A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HstarCanvas.Bridge", "src\HstarCanvas.Bridge\HstarCanvas.Bridge.csproj", "{313A2C72-C3D6-4DAA-BA53-709DCE8503BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HstarCanvas.Native", "src\HstarCanvas.Native\HstarCanvas.Native.csproj", "{45BA4204-8D03-4069-AECB-98F0CC71242B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3D5C91F5-B129-4A43-9032-E9050133DC0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HstarCanvas.Core.Tests", "tests\HstarCanvas.Core.Tests\HstarCanvas.Core.Tests.csproj", "{6B32C6C9-BDDA-46A3-AD5E-6EA41FA48268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HstarCanvas.Execution.Tests", "tests\HstarCanvas.Execution.Tests\HstarCanvas.Execution.Tests.csproj", "{53F4EB28-A17B-4F36-AE25-1AAF33A7B9E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HstarCanvas.Persistence.Tests", "tests\HstarCanvas.Persistence.Tests\HstarCanvas.Persistence.Tests.csproj", "{C87C6B62-03EE-4C19-8E48-77E183C9B933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HstarCanvas.Bridge.Tests", "tests\HstarCanvas.Bridge.Tests\HstarCanvas.Bridge.Tests.csproj", "{AE863F70-517E-4463-98F4-475A13ECF74E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4907A84B-9D1D-4B1A-B42A-3D37B281F40B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4907A84B-9D1D-4B1A-B42A-3D37B281F40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4907A84B-9D1D-4B1A-B42A-3D37B281F40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4907A84B-9D1D-4B1A-B42A-3D37B281F40B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E40126-CF85-4B97-A41D-900253E9A47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E40126-CF85-4B97-A41D-900253E9A47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E40126-CF85-4B97-A41D-900253E9A47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E40126-CF85-4B97-A41D-900253E9A47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C01671-44FF-4FE0-9B02-8F19B7C0977A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C01671-44FF-4FE0-9B02-8F19B7C0977A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C01671-44FF-4FE0-9B02-8F19B7C0977A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C01671-44FF-4FE0-9B02-8F19B7C0977A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313A2C72-C3D6-4DAA-BA53-709DCE8503BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313A2C72-C3D6-4DAA-BA53-709DCE8503BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313A2C72-C3D6-4DAA-BA53-709DCE8503BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313A2C72-C3D6-4DAA-BA53-709DCE8503BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45BA4204-8D03-4069-AECB-98F0CC71242B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45BA4204-8D03-4069-AECB-98F0CC71242B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45BA4204-8D03-4069-AECB-98F0CC71242B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45BA4204-8D03-4069-AECB-98F0CC71242B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B32C6C9-BDDA-46A3-AD5E-6EA41FA48268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B32C6C9-BDDA-46A3-AD5E-6EA41FA48268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B32C6C9-BDDA-46A3-AD5E-6EA41FA48268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B32C6C9-BDDA-46A3-AD5E-6EA41FA48268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F4EB28-A17B-4F36-AE25-1AAF33A7B9E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F4EB28-A17B-4F36-AE25-1AAF33A7B9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F4EB28-A17B-4F36-AE25-1AAF33A7B9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F4EB28-A17B-4F36-AE25-1AAF33A7B9E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87C6B62-03EE-4C19-8E48-77E183C9B933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87C6B62-03EE-4C19-8E48-77E183C9B933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87C6B62-03EE-4C19-8E48-77E183C9B933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87C6B62-03EE-4C19-8E48-77E183C9B933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE863F70-517E-4463-98F4-475A13ECF74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE863F70-517E-4463-98F4-475A13ECF74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE863F70-517E-4463-98F4-475A13ECF74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE863F70-517E-4463-98F4-475A13ECF74E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4907A84B-9D1D-4B1A-B42A-3D37B281F40B} = {94DACA31-33B8-458D-804D-DA4578255651}
+		{B0E40126-CF85-4B97-A41D-900253E9A47E} = {94DACA31-33B8-458D-804D-DA4578255651}
+		{D7C01671-44FF-4FE0-9B02-8F19B7C0977A} = {94DACA31-33B8-458D-804D-DA4578255651}
+		{313A2C72-C3D6-4DAA-BA53-709DCE8503BB} = {94DACA31-33B8-458D-804D-DA4578255651}
+		{45BA4204-8D03-4069-AECB-98F0CC71242B} = {94DACA31-33B8-458D-804D-DA4578255651}
+		{6B32C6C9-BDDA-46A3-AD5E-6EA41FA48268} = {3D5C91F5-B129-4A43-9032-E9050133DC0F}
+		{53F4EB28-A17B-4F36-AE25-1AAF33A7B9E5} = {3D5C91F5-B129-4A43-9032-E9050133DC0F}
+		{C87C6B62-03EE-4C19-8E48-77E183C9B933} = {3D5C91F5-B129-4A43-9032-E9050133DC0F}
+		{AE863F70-517E-4463-98F4-475A13ECF74E} = {3D5C91F5-B129-4A43-9032-E9050133DC0F}
+	EndGlobalSection
+EndGlobal

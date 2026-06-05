@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+.vscode/
+TestResults/
+coverage/
+node_modules/
+dist/
+.superpowers/
+*.user
+*.suo
+*.log
+
